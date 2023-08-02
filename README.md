@@ -72,18 +72,18 @@ From The Windows 10 VM, open command line or PowerShell and attempt to ping a pu
 <p>
 Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 <p> 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/p8Il53N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 <p> 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/16DPLva.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zrqiQCq.png" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
 <p> Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 <p> Stop the ping activity
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tglB0D4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 
 <p align="center">
