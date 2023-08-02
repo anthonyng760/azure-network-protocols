@@ -94,7 +94,7 @@ Back in Wireshark, filter for SSH traffic only
 <p> Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
 <p> Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/RKiOvt6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 
 <p align="center">
@@ -104,7 +104,7 @@ Observe DCHP Traffic
 <p> From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 <p> Observe the DHCP traffic appearing in WireShark
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/QLE5Syu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 
 <p align="center">
@@ -114,7 +114,7 @@ Observe DNS Traffic
 <p> From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 <p> Observe the DNS traffic being show in WireShark
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/BELAbMW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 
 <p align="center">
@@ -124,7 +124,7 @@ Observe RDP Traffic
 <p> Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
 <p> Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0rDXW1S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 
 Dont forget to clean up your Azure Environment to prevent incurring additional charges.
