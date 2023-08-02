@@ -33,7 +33,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 Set up your virtual environment
 <p> Create your Resource group inside Azure
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p></p>
+<img src="https://imgur.com/8UoHG5s.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>
 
@@ -41,12 +42,12 @@ Create a Windows 10 Virtual Machine (VM)
 <p> While creating the VM, select the previously created Resource Group
 <p> While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a6IpJQm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 Create a Linux (Ubuntu) VM
 <p> While creating the VM, select the previously created Resource Group and Vnet
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/78HbqrK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 Observe Your Virtual Network within Network Watcher
 <p>
